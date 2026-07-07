@@ -374,6 +374,11 @@ html {
   .main::-webkit-scrollbar {
     display: block;
   }
+  html, body {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
   body {
     font-size: 12px;
     grid-template-rows: 30px 1fr 30px;
