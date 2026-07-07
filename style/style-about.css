@@ -284,6 +284,13 @@ body .intro .intro__table .intro__table--skill > div > span:nth-child(2) {
   font-size: 2rem;
 }
 
+/*레이아웃 틀어진 문제 해결*/
+body .main .intro {
+  height: auto;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
 /*scrollbar*/
 html {
   scroll-behavior: smooth;
