@@ -291,6 +291,14 @@ body .main .intro {
   min-height: 0;
 }
 
+body .intro .intro__table div:nth-child(9) {
+  grid-row: span 4;
+}
+
+body .intro .intro__table div:nth-child(14), :nth-child(15) {
+  grid-row: span 5;
+}
+
 /*scrollbar*/
 html {
   scroll-behavior: smooth;
